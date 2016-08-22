@@ -5,11 +5,11 @@ package com.jing.dp.demo.decorator;
  * @author hspcadmin
  *
  */
-public abstract class FaceAbsDecorator implements IDecorator {
+public class FaceDecorator implements IDecorator {
 
 	@Override
 	public void draw() {
-		System.out.println("I draw a face");
+		System.out.println("我先画一张脸");
 	}
 
 }
