@@ -34,7 +34,7 @@ public class ProxyHandler implements InvocationHandler {
 	}
 
 	/**
-	**newProxyInstance()第二参数指代的是所要代理的接口数组，得到的代理类默认实现该接口数组	
+	**newProxyInstance()第二参数指代的是所要代理的接口数组，得到的代理类默认实现该接口数组，没实现接口的类无法被代理	
 	**
 	*/
 	public ProxyTestIfs getProxyInstance(){
