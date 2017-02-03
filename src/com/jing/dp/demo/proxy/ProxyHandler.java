@@ -24,7 +24,7 @@ public class ProxyHandler implements InvocationHandler {
 	*/
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] params) throws Throwable {
-		//判断ProxyTestIfs.class是否是proxy.class的子类/接口类
+		//判断ProxyTestIfs.class是否是proxy.class的父类/接口类
 		if (ProxyTestIfs.class.isAssignableFrom(proxy.getClass()) && method.getName().equals("modify")) {
 			// 不调用原本的modify方法
 			System.out.println("拦截了modify()方法");
