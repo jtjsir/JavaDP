@@ -2,7 +2,7 @@ package com.jing.dp.demo.proxy;
 
 
 /**
- * 动态代理的main函数
+ * 
  * @author hspcadmin
  *
  */
